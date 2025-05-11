@@ -60,9 +60,3 @@ To run this website locally with XAMPP or a similar stack:
 5. **Manually reconfigure settings** (theme, plugins, menus, etc.) via the WordPress admin panel.
 
 *Note: Due to privacy concerns, we have not included the production database. You will need to set up your own local database and reconfigure pages manually, or optionally use placeholder content.*
-
----
-
-## 📫 Contact
-
-For questions or collaboration, reach out to the project team at [your-email@example.com].
