@@ -2,6 +2,10 @@
 
 This project is a full refresh of the Labyrinth Lady WordPress website. It includes major frontend and backend improvements, new features, SEO enhancements, and responsive design updates.
 
+> ⚠️ This repository **does not include WordPress core files** or the live database to keep the repo lightweight and avoid exposing private data. See the instructions below to get it running locally.
+
+---
+
 ## 🔧 Features Implemented
 
 - Homepage refresh (new video, intro section, testimonial redesign with "Read More" feature)
@@ -13,6 +17,8 @@ This project is a full refresh of the Labyrinth Lady WordPress website. It inclu
 - SEO updates using Yoast SEO
 - Responsive design across all pages
 - Plugin-based enhancements for contact forms, caching, event calendar, PDF forms, and more
+
+---
 
 ## 🧰 Plugins Used
 
@@ -34,14 +40,29 @@ This project is a full refresh of the Labyrinth Lady WordPress website. It inclu
 - WPC Product Bundles for WooCommerce  
 - Yoast SEO  
 
+---
+
 ## 🚀 Getting Started
 
-To run the website locally:
+To run this website locally with XAMPP or a similar stack:
 
-1. Install [WordPress](https://wordpress.org/download/) on your machine.
-2. Clone or download this repository.
-3. Move the files from this project into your local WordPress directory (e.g., `/htdocs/wordpress/` for XAMPP or `/var/www/html/wordpress/` for Apache).
-4. Start your local server (XAMPP, MAMP, WAMP, etc.).
-5. Navigate to `http://localhost/wordpress/` in your browser.
+1. **Install WordPress** on your machine (download from [wordpress.org](https://wordpress.org/download/)).
+2. **Clone this repository** into your WordPress installation directory:
+    ```
+    git clone https://github.com/yourusername/labyrinth-lady-site.git
+    ```
+    Move the contents (typically the `wp-content/` folder and any setup files) into your WordPress directory, e.g.:
+    ```
+    C:\xampp\htdocs\wordpress\wp-content\
+    ```
+3. **Create a new database** using phpMyAdmin (e.g., `labyrinthlady_db`).
+4. **Set up WordPress** in your browser at `http://localhost/wordpress/`.
+5. **Manually reconfigure settings** (theme, plugins, menus, etc.) via the WordPress admin panel.
 
-You may also need to create a database and adjust the site URL depending on your setup.
+*Note: Due to privacy concerns, we have not included the production database. You will need to set up your own local database and reconfigure pages manually, or optionally use placeholder content.*
+
+---
+
+## 📫 Contact
+
+For questions or collaboration, reach out to the project team at [your-email@example.com].
